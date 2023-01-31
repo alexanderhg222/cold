@@ -78,7 +78,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="mt-8 text-3xl  items-center md:justify-start justify-center gap-5 hidden lg:flex">
+        <div className="mt-2 text-3xl  items-center md:justify-start justify-center gap-5 hidden lg:flex">
           {sn.map((social) => (
             <div
               key={social}

@@ -1,5 +1,8 @@
 import React from "react";
+import Catalogo from "./componentes/Catalogo";
+import Contacto from "./componentes/Contacto";
 import Home from "./componentes/Home";
+import Marcas from "./componentes/Marcas";
 import Navbar from "./componentes/navbar";
 import Productos from "./componentes/Productos";
 const App = () => {
@@ -8,6 +11,9 @@ const App = () => {
       <Navbar></Navbar>
       <Home></Home>
       <Productos></Productos>
+      <Catalogo></Catalogo>
+      <Marcas></Marcas>
+      <Contacto></Contacto>
     </>
   );
 };

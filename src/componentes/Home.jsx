@@ -20,7 +20,7 @@ md:flex-row flex-col items-center ">
           loop
           autoPlay
           muted
-          className=" min-h-screen w-full z-auto top-0 object-cover right-0 absolute"></video>
+          className=" min-h-screen w-full z-auto top-[-10px] object-cover right-0 absolute"></video>
       </div>
       <div className="flex-1  flex items-center justify-center">
         <img
