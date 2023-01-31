@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-serif scroll-smooth;
+}
+body {
+  @apply box-border bg-gray-900 text-gray-100;
+}
+.color-1 {
+  @apply text-[#01a2e3] text-2xl;
+}
+.color-2 {
+  @apply text-[#858585];
+}
+.color-3 {
+  @apply text-[#f1f1f1];
+}
+.btn-primary {
+  @apply bg-[#01a2e3] rounded-lg px-2;
+}
+.bg-video {
+  background: url("https://video.wixstatic.com/video/c89fa1_c9573e77bc3147219f275f5b016aa345/720p/mp4/file.mp4");
+  width: 100%;
+  height: auto;
+}
