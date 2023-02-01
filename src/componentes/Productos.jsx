@@ -50,7 +50,8 @@ const Productos = () => {
           <motion.div
             className="border-4 rounded-lg border-cyan-600"
             key={dat.id}
-            layout>
+            layout
+            onDurationChange={3}>
             <img
               className="border-b-4 border-cyan-600"
               src={dat.img}
