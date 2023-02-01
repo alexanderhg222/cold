@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav
       className={` fixed w-full left-0 top-0 z-[999] ${
         sticky
-          ? "md:bg-red-400 lg:bg-white/0 sm:bg-white md:text-gray-900 sm:text-gray-900 "
+          ? "md:bg-white/0 lg:bg-white/0 sm:bg-white md:text-gray-900 sm:text-gray-900 "
           : "md:text-white "
       }`}>
       <div className="flex items-center justify-between ">

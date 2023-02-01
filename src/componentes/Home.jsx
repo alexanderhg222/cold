@@ -20,26 +20,26 @@ md:flex-row flex-col items-center ">
           loop
           autoPlay
           muted
-          className=" min-h-screen w-full z-auto top-[-10px] object-cover right-0 absolute"></video>
+          className=" min-h-screen w-full z-auto top-[-10px] object-cover right-0 absolute opacity-80"></video>
       </div>
       <div className="flex-1  flex items-center justify-center">
         <img
           src={img}
           alt=""
-          className="md:w-7/12 w-11/12 h-full object-cover z-20  "
+          className="md:w-7/12 w-11/12 h-full object-cover z-20  ml-[60px] "
         />
       </div>
       <div className="flex-1 z-10">
         <div className="md:text-left text-center">
           <h1
             className="md:text-5xl text-2xl md:leading-normal leading-10
-        text-gray-500 font-bold">
-            <span className="text-cyan-600 md:text-6xl text-5xl">
+        text-gray-400 font-bold">
+            <span className="text-cyan-600 md:text-6xl text-5xl font-extrabold">
               Bienvenido!
               <br />
             </span>
-            <span className="text-white">Somos</span> COLD
-            <span className="text-cyan-600">SMART</span>
+            <span className="text-white font-extrabold">Somos</span> COLD
+            <span className="text-cyan-600 font-extrabold">SMART</span>
           </h1>
           <h4
             className="md:text-2xl text-lg md:leading-normal leading-5
