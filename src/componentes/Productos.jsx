@@ -50,7 +50,7 @@ const Productos = () => {
             <img
               className="border-b-4 border-cyan-600"
               src={dat.img}
-              alt=" IMAGEN DAÑADA"
+              alt={img1}
             />
 
             <h3 className="text-sm flex justify-center py-1 font-semibold text-gray-700">
