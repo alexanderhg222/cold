@@ -1,10 +1,11 @@
+import img1 from "./assets/Productos/a1.png";
 const datos = [
   {
     id: 1,
     producto: "Aire Acondiconado",
     nombre: "SPLIT DECORATIVO PARED",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a1.png",
+    img: { img1 },
   },
   {
     id: 2,
