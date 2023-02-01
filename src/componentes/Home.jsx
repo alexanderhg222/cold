@@ -26,7 +26,7 @@ md:flex-row flex-col items-center ">
         <img
           src={img}
           alt=""
-          className="md:w-7/12 w-11/12 h-full object-cover z-20  ml-[60px] "
+          className="md:w-7/12 w-8/12 h-full object-cover z-20  ml-[60px] "
         />
       </div>
       <div className="flex-1 z-10">

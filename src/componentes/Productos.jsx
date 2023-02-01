@@ -24,7 +24,9 @@ const Productos = () => {
   return (
     <div className="min-h-screen py-10 text-black  ">
       <div className=" flex justify-center mx-auto py-10 font-semibold uppercase">
-        <h3 className="text-4xl text-cyan-600"> Nuestros Productos</h3>
+        <h3 className="md:text-4xl text-cyan-600 text-2xl">
+          Nuestros Productos
+        </h3>
       </div>
       <div className="p-5 flex gap-2 justify-center">
         {prueba.map((btn) => (
