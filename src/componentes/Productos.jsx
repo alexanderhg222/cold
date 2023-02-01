@@ -55,7 +55,7 @@ const Productos = () => {
           </div>
         ))}
       </div>
-      <img src={img1} alt="" />
+      <img src={img1} alt=" MI IMAGEN QUE NO SALES" />
     </div>
   );
 };
