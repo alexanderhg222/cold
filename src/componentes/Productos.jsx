@@ -47,7 +47,11 @@ const Productos = () => {
       <div className=" mx-10 flex gap-10 flex-wrap justify-center">
         {data.map((dat) => (
           <div className="border-4 rounded-lg border-cyan-600" key={dat.id}>
-            <img className="border-b-4 border-cyan-600" src={dat.img} alt="" />
+            <img
+              className="border-b-4 border-cyan-600"
+              src={dat.img}
+              alt=" IMAGEN DAÑADA"
+            />
 
             <h3 className="text-sm flex justify-center py-1 font-semibold text-gray-700">
               {dat.nombre}
