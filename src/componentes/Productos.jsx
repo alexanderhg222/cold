@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import img1 from "../assets/Productos/a5.png";
 import datos from "../datos.js";
 const Productos = () => {
   const productos = datos;
@@ -22,7 +23,7 @@ const Productos = () => {
   };
 
   return (
-    <div className="min-h-screen py-10 text-black  ">
+    <div className="min-h-screen p-10 xl:py-32 lg:py-10 text-black  ">
       <div className=" flex justify-center mx-auto py-10 font-semibold uppercase">
         <h3 className="md:text-4xl text-cyan-600 text-2xl">
           Nuestros Productos
@@ -54,6 +55,7 @@ const Productos = () => {
           </div>
         ))}
       </div>
+      <img src={img1} alt="" />
     </div>
   );
 };
