@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import img1 from "../assets/Productos/a5.png";
 import datos from "../datos.js";
+import Gatos from "../gatos";
+import patos from "../datos.json";
 import { motion } from "framer-motion";
 const Productos = () => {
   const productos = datos;
@@ -50,12 +52,12 @@ const Productos = () => {
           <motion.div
             className="border-4 rounded-lg border-cyan-600"
             key={dat.id}
-            layout
-            onDurationChange={3}>
+            layout>
             <img
               className="border-b-4 border-cyan-600"
               src={dat.img}
               alt={" IMAGEN DAÑADA"}
+              crossOrigin=""
             />
 
             <h3 className="text-sm flex justify-center py-1 font-semibold text-gray-700">

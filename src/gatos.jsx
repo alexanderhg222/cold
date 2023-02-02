@@ -1,68 +1,77 @@
-import cors from "cors";
+import React from "react";
+import img1 from "./assets/Productos/a1.png";
+import img2 from "./assets/Productos/a2.png";
+import img3 from "./assets/Productos/a3.png";
+import img4 from "./assets/Productos/a4.png";
+import img5 from "./assets/Productos/a5.png";
+import img6 from "./assets/Productos/a6.png";
+import img7 from "./assets/Productos/a7.png";
+import img8 from "./assets/Productos/a8.png";
+import img9 from "./assets/Productos/a9.png";
 
-const datos = [
+const gatos = [
   {
     id: 1,
     producto: "Aire Acondiconado",
     nombre: "SPLIT DECORATIVO PARED",
     descripcion: " esto es algo y asi ",
-    img: "https://static.wixstatic.com/media/c89fa1_51c74bd16f5743a6b82156f76cb10209~mv2.png/v1/fill/w_221,h_221,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c89fa1_51c74bd16f5743a6b82156f76cb10209~mv2.png",
+    img: { img1 },
   },
   {
     id: 2,
     producto: "Aire Acondiconado",
     nombre: "SPLIT DECORATIVO PISO-TECHO",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a2.png",
+    img: { img2 },
   },
   {
     id: 3,
     producto: "Aire Acondiconado",
     nombre: "CASSETTE",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a3.png",
+    img: { img3 },
   },
   {
     id: 4,
     producto: "Aire Acondiconado",
     nombre: "SPLIT DUCTO",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a4.png",
+    img: { img4 },
   },
   {
     id: 5,
     producto: "Aire Acondiconado",
     nombre: "VRF / MULTI V / VRV",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a5.png",
+    img: { img5 },
   },
   {
     id: 6,
     producto: "Aire Acondiconado",
     nombre: "CHILLER",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a6.png",
+    img: { img6 },
   },
   {
     id: 7,
     producto: "Aire Acondiconado",
     nombre: "Mini VRF /VRV /MULTISPLIT",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a7.png",
+    img: { img7 },
   },
   {
     id: 8,
     producto: "Aire Acondiconado",
     nombre: "PAQUETE (ROOFTOP)",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a8.png",
+    img: { img8 },
   },
   {
     id: 9,
     producto: "Aire Acondiconado",
     nombre: "FAN COIL AGUA HELADA",
     descripcion: " esto es algo y asi ",
-    img: "../src/assets/Productos/a9.png",
+    img: { img9 },
   },
   {
     id: 10,
@@ -128,5 +137,5 @@ const datos = [
     img: "../src/assets/Productos/",
   },
 ];
-cors(datos);
-export default datos;
+
+export default gatos;
