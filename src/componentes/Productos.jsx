@@ -39,8 +39,8 @@ const Productos = () => {
   };
 
   return (
-    <div className="min-h-screen p-10 xl:py-32 lg:py-10 text-black  ">
-      <div className=" flex justify-center mx-auto py-10 font-semibold uppercase">
+    <div className="min-h-screen pt-10  xl:py-32 lg:pt-10 text-black  ">
+      <div className=" flex justify-center mx-auto py-5 font-semibold uppercase">
         <h3 className="md:text-4xl text-cyan-600 text-2xl">
           Nuestros Productos
         </h3>
@@ -60,7 +60,7 @@ const Productos = () => {
           </button>
         ))}
       </div>
-      <motion.div className=" mx-10 flex gap-5 flex-wrap justify-center transition-8000">
+      <motion.div className=" md:mx-10 md:flex gap-5 grid grid-cols-2 md:flex-wrap justify-center transition-8000">
         {data.map((dat) => (
           <motion.div
             className="border-2 my-2 hover:scale-110 transition-6000 shadow-xl rounded-lg border-cyan-600 w-[12rem] "

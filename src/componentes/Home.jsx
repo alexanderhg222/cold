@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className=" min-h-screen flex py-10 
+      className=" min-h-screen flex  
 md:flex-row flex-col items-center ">
       <div>
         <video
@@ -47,10 +47,10 @@ md:flex-row flex-col items-center ">
             Somos importadores - distribuidores de las mejores marcas en HVAC y
             Refrigeración del mundo
           </h4>
-          <button className="bg-[#01a2e3] font-semibold text-gray-600 rounded-lg px-6 py-2 mt-4">
+          <button className="bg-[#01a2e3] font-semibold text-gray-600 rounded-lg px-6 md:py-2 py-1 mt-4">
             Cotiza
           </button>
-          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
+          <div className="md:mt-8 mt-2 text-3xl flex items-center md:justify-start justify-center gap-5">
             {sn.map((social) => (
               <div
                 key={social}

@@ -11,8 +11,9 @@ const App = () => {
       <Navbar></Navbar>
       <Home></Home>
       <Productos></Productos>
-      <Catalogo></Catalogo>
       <Marcas></Marcas>
+      <Catalogo></Catalogo>
+
       <Contacto></Contacto>
     </>
   );
